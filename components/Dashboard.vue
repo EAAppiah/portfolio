@@ -60,31 +60,101 @@
         <hr class="last-hr">
         <!-- footer -->
         <footer id="footer" class="mt-6 text-xs text-gray-500 ml-3">
-					<p class="copyright"><em>© KageDevContent</em>. All rights reserved.</p>
-				</footer>
+          <p class="copyright"><em>© KageDevContent</em>. All rights reserved.</p>
+        </footer>
       </div>
     </div>
 
 
-
-    <div class="w-full h-full">
-      <div class="h-[50px] bg-gray-100 flex items-center shadow-sm px-[20px] w-full py-[10px] z-10 border-b ">
+    <!-- Main Page -->
+    <div class="w-full h-full p-4">
+      <div class="mt-3 z-10">
         <!-- Hambuger menu -->
         <div class="cursor-pointer w-[30px]" @click="toggleSideBar">
-          <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[25px] h-[25px] text-purple-900"></Icon>
+          <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[40px] h-[40px] text-purple-900"></Icon>
         </div>
-
       </div>
 
+      <!--   -->
+      <header class="mx-14 mt-4">
+        <div class="flex justify-between items-center">
+          <a class="text-gray-500 hover:text-purple-900" href="/">Changing the World <strong class="">1 line of
+              Code</strong> at a time</a>
+          <div>
+            <ul class="icons flex">
+              <li class="mr-2">
+                <span>
+                  <Icon name="i-material-symbols-dark-mode-outline"
+                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                </span>
+                <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                </a>
+              </li>
+              <li class="ml-2">
+                <span>
+                  <Icon name="i-material-symbols-mail-outline"
+                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                </span>
+                <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                </a>
+              </li>
+              <li class="ml-4">
+                <span>
+                  <Icon name="i-brandico-twitter-bird" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                  </Icon>
+                </span>
+                <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
+                </a>
+              </li>
+              <li class="ml-4">
+                <span>
+                  <Icon name="i-akar-icons-linkedinv2-fill"
+                    class="text-gray-500 text-xl cursor-pointer hover:text-purple-900"></Icon>
+                </span>
+                <a name="Linked-In" target="_blank" href="https://www.linkedin.com/in/ek-appiah"></a>
+              </li>
+              <li class="ml-4">
+                <span>
+                  <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                </span>
+                <a name="Github" target="_blank" href="https://github.com/EAAppiah">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr style="border: 2px solid #4A1D96; margin-top: 20px">
+      </header>
+
+
+      <section id="banner">
+        <div class="content mx-14">
+          <header class="block">
+            <h1 class="text-5xl">Hi, I’m Elvis,<br> Your Next Software Engineer</h1>
+            <p class="tracking-wider text-gray-500 md:text-md dark:text-gray-400 uppercase">Ready to Change The World?</p>
+          </header>
+          <button
+            class="relative inline-flex items-center justify-center p-0.5 mt-5 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+            <span
+              class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              MEET ME
+            </span>
+          </button>
+        </div>
+        <span class="image object">
+          <!-- <img src="images/headshot.jpg" alt=""> -->
+        </span>
+      </section>
     </div>
-    <!-- Main  -->
+
+
+
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      showDropDown: false,
       showSide: true
     }
   },
@@ -94,11 +164,6 @@ export default {
       this.showSide = !this.showSide
 
     },
-    // toggle user 
-    toggleDrop() {
-      this.showDropDown = !this.showDropDown
-
-    }
   }
 
 }
@@ -115,4 +180,33 @@ header.msg> :last-child {
 .last-hr {
   border: 2px solid rgba(210, 215, 217, 0.75);
   margin-top: 40px;
-}</style>
+}
+
+#banner {
+  padding: 73.333px 0 44px;
+}
+
+#banner .content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 50%;
+}
+
+#banner h1 {
+  margin-top: -0.125em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3d4449;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  display: block;
+}
+</style>
