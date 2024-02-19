@@ -1,12 +1,17 @@
 <template>
   <div>
-    <section id="banner">
-      <div class="content mx-16">
-        <header class="block">
-          <h1 class="text-6xl font-semibold leading-tight text-gray-700">Hi, I’m Elvis,<br> Your Next Software Engineer</h1>
-          <p class="tracking-wider text-gray-600 md:text-sm dark:text-gray-400 uppercase mt-4 mb-4">Ready to Change The
-            World?</p>
-        </header>   
+    <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
+      <div class="content sm:mx-6 lg:mx-16 flex-1">
+        <header class="block mt-4 lg:mt-0">
+          <div class="flex flex-col h-full justify-center">
+            <h1 class="sm:text-2xl lg:hidden font-semibold leading-tight text-gray-700">Hi, I’m Elvis, Your Next Software Engineer</h1>
+            <h1 class="hidden lg:flex text-6xl font-semibold leading-tight text-gray-700 text-balance">Hi, I’m Elvis,<br> Your Next Software Engineer</h1>
+              <p class="tracking-wider text-gray-600 md:text-sm dark:text-gray-400 uppercase mt-4 mb-4">Ready to Change The
+                World?
+              </p>
+          </div>
+        </header>
+
         <button
           class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
           <span
@@ -15,13 +20,17 @@
           </span>
         </button>
       </div>
-      <span class="mr-16">
-        <img src="assets/images/work.jpg" alt="Profile pic" width="700" height="400" class="rounded">
+      <span class="lg:hidden">
+        <img src="assets/images/work.jpg" alt="Profile pic" class="rounded w-full h-auto">
+      </span>
+      <span class="mr-16 hidden xl:hidden lg:flex">
+        <img src="assets/images/work.jpg" alt="Profile pic" width="400px" height="400px" class="rounded">
+      </span>
+      <span class="mr-16 hidden xl:block">
+        <img src="assets/images/work.jpg" alt="Profile pic" width="600px" height="400px" class="rounded">
       </span>
     </section>
   </div>
-
-
 </template>
 
 <style>
@@ -41,19 +50,14 @@ header.msg> :last-child {
   padding: 0 0.75em 0.5em 0;
 }
 
-.last-hr {
-  border: 2px solid rgba(210, 215, 217, 0.75);
-  margin-top: 40px;
-}
-
 #banner {
   padding: 73.333px 0 44px;
   display: flex;
   justify-content: space;
+  align-items: center;
 }
 
 #banner h1 {
   margin-top: -0.125em;
 }
-
 </style>
