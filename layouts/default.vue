@@ -2,8 +2,7 @@
   <div class="w-screen h-screen flex overflow-x-hidden">
 
     <!-- SIDE BAR -->
-    <div class="w-[325px] h-full bg-gray-100 bar" v-show="showSide">
-
+    <div id="bar" class="hidden lg:block" v-show="showSide">
       <!-- Search Form -->
       <div class="alt">
         <form class="p-5 flex items-center">
@@ -76,22 +75,17 @@
       </div>
     </div>
 
-    <!-- HEADER SECTION -->
+    <!-- HEADER SECTION LG SCREENS -->
     <div class="w-full h-full p-4 custom">
       <div class="z-10">
-        
-        <!-- HAMBURGER MENU-->
-        <div class="cursor-pointer w-[30px]">
-          <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[40px] h-[40px] text-purple-900"></Icon>
-        </div>
-      </div>
 
-      <!--  HEADER LINKS/MSG -->
-      <header class="mx-16 mt-4">
+        <!-- HAMBURGER MENU-->
         <div class="flex justify-between items-center">
-          <a class="text-gray-500 hover:text-purple-900" href="/">Changing the World <strong class="">1 line of
-              Code</strong> at a time</a>
-          <div>
+          <div class="cursor-pointer w-[30px]">
+            <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[40px] h-[40px] text-purple-900"></Icon>
+          </div>
+
+          <div class="md:hidden">
             <ul class="icons flex">
               <li class="mr-2">
                 <span>
@@ -126,7 +120,8 @@
               </li>
               <li class="ml-4">
                 <span>
-                  <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                  <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                  </Icon>
                 </span>
                 <a name="Github" target="_blank" href="https://github.com/EAAppiah">
                 </a>
@@ -134,9 +129,60 @@
             </ul>
           </div>
         </div>
-        <hr style="border: 2px solid #4A1D96; margin-top: 20px">
-      </header>
 
+        <!--  HEADER LINKS/MSG -->
+        <header class="sm:mx-2 lg:mx-16 mt-4">
+          <div class="flex justify-between items-center">
+            <a class="text-gray-500 hover:text-purple-900" href="/">Changing the World <strong class="">1 line of
+                Code</strong> at a time</a>
+            <div class="hidden md:block">
+              <ul class="icons flex">
+                <li class="mr-2">
+                  <span>
+                    <Icon name="i-material-symbols-dark-mode-outline"
+                      class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                  </span>
+                  <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                  </a>
+                </li>
+                <li class="ml-2">
+                  <span>
+                    <Icon name="i-material-symbols-mail-outline"
+                      class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                  </span>
+                  <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                  </a>
+                </li>
+                <li class="ml-4">
+                  <span>
+                    <Icon name="i-brandico-twitter-bird"
+                      class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                    </Icon>
+                  </span>
+                  <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
+                  </a>
+                </li>
+                <li class="ml-4">
+                  <span>
+                    <Icon name="i-akar-icons-linkedinv2-fill"
+                      class="text-gray-500 text-xl cursor-pointer hover:text-purple-900"></Icon>
+                  </span>
+                  <a name="Linked-In" target="_blank" href="https://www.linkedin.com/in/ek-appiah"></a>
+                </li>
+                <li class="ml-4">
+                  <span>
+                    <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                    </Icon>
+                  </span>
+                  <a name="Github" target="_blank" href="https://github.com/EAAppiah">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="border: 2px solid #4A1D96; margin-top: 20px">
+        </header>
+      </div>
       <slot />
     </div>
   </div>
@@ -161,30 +207,29 @@ export default {
 </script>
   
 <style scoped>
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-.bar {
+#bar {
   position: fixed;
+  background-color: #f5f6f7;
   top: 0;
   left: 0;
+  width: 325px;
   height: 100%;
+  transition: background 750ms ease-in-out;
 }
-
 .alt {
   background-color: #eff1f2;
 }
-
 header.msg> :last-child {
   border-bottom: solid 3px purple;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0;
 }
-
 .last-hr {
   border: 2px solid rgba(210, 215, 217, 0.75);
   margin-top: 40px;
@@ -213,4 +258,9 @@ h6 {
   margin-left: 325px;
 }
 
+@media (max-width: 768px) {
+  .custom {
+    margin-left: 0;
+  }
+}
 </style>
