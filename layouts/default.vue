@@ -79,8 +79,9 @@
     <!-- HEADER SECTION -->
     <div class="w-full h-full p-4 custom">
       <div class="z-10">
+        
         <!-- HAMBURGER MENU-->
-        <div class="cursor-pointer w-[30px]" @click="toggleSideBar">
+        <div class="cursor-pointer w-[30px]">
           <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[40px] h-[40px] text-purple-900"></Icon>
         </div>
       </div>
