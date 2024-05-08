@@ -81,9 +81,9 @@
 
         <!-- HAMBURGER MENU-->
         <div class="flex justify-between items-center">
-          <div class="cursor-pointer w-[30px]">
+          <nuxt-link to="/" class="cursor-pointer w-[30px]">
             <Icon name="i-material-symbols-keyboard-double-arrow-left" class="w-[40px] h-[40px] text-purple-900"></Icon>
-          </div>
+          </nuxt-link>
 
           <div class="md:hidden">
             <ul class="icons flex">
