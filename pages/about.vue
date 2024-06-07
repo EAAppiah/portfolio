@@ -1,37 +1,45 @@
 <template>
-  <div>
-    <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
-      <div class="content sm:mx-6 lg:mx-16">
-        <header class="block mt-4 lg:mt-0">
-          <div class="flex flex-col h-full justify-center">
-            <h1 class="sm:text-2xl hidden text-5xl font-semibold leading-tight text-gray-700 mb-4 text-center">About Me</h1>
-            <h1 class="hidden lg:flex text-5xl font-semibold leading-tight text-gray-700 mb-4">About Me</h1>
-            <span class="text dark:text-gray-400 my-4 max-w-2xl text-balance"><strong>I love answers!</strong><br><br>
-              My name is Elvis Appiah. I build with React & Vue.js, and do whatever it takes to
-              find an answer with them. <br><br>
-              I love things for the web and learning about new ideas and techniques for productivity and workflows. <br><br>
-              <strong>Domain Experience so far:</strong> <span class="text-purple-600"><strong>Health Tech</strong></span> <br><br>
-              Get in touch to find the next answer together!</span><br><br>
-          </div>
-        </header>
+  <main class="dark:bg-slate-900 overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
+    <div class="max-w-5xl xl:max-w-6xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8">
+      <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
+        <div>
+          <header class="block mt-4 lg:mt-0">
+            <div class="flex flex-col h-full justify-center">
+              <h1 class="sm:text-2xl hidden text-5xl font-semibold leading-tight text-gray-700 mb-4 text-center">About
+                Me
+              </h1>
+              <h1 class="hidden lg:flex text-5xl font-semibold leading-tight text-gray-700 mb-4 dark:text-white">About
+                Me
+              </h1>
+              <span class="text dark:text-slate-300 my-4 max-w-2xl text-balance"><strong class="dark:text-white">I love
+                  answers!</strong><br><br>
+                My name is Elvis Appiah. I build with React & Vue.js, and do whatever it takes to
+                find an answer with them. <br><br>
+                I love things for the web and learning about new ideas and techniques for productivity and workflows.
+                <br><br>
+                <strong class="dark:text-white">Domain Experience so far:</strong> <span
+                  class="text-purple-600"><strong>Health
+                    Tech</strong></span> <br><br>
+                Get in touch to find the next answer together!</span><br><br>
+            </div>
+          </header>
 
-          <div>
+          <div class="text-center md:text-left">
             <a href="/Resume.pdf" download="Resume.pdf"
               class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-3.5 text-center me-2 mb-2">
-              <span>
-                <Icon name="i-pixelarticons-download" class="text-lg mr-2"></Icon>RESUME
-              </span>
+              <Icon name="ri:download-cloud-2-line" class="mr-2" /> RESUME
             </a>
           </div>
-      </div>
-        <span class="lg:hidden sm:-mt-16">
+        </div>
+        <span class="lg:hidden sm:-mt-14">
           <img src="assets/images/work.jpg" alt="Profile pic" class="rounded-full w-32 h-32">
         </span>
         <span class="hidden lg:flex mr-16">
           <img src="assets/images/vue-react.jpeg" alt="Profile pic" width="800px" class="rounded">
         </span>
-    </section>
-  </div>
+      </section>
+    </div>
+  </main>
 </template>
 
 <style>
