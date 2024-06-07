@@ -11,7 +11,14 @@
   <!-- </div> -->
 </template>
 
-<script setup>
+<script setup lang="ts">
+
+useHead({
+  title: 'Elvis Appiah Portfolio',
+  meta: [
+    { name: 'description', content: 'Elvis Appiah Portfolio' }
+  ],
+})
 </script>
 
 <style scoped>
