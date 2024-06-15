@@ -17,11 +17,13 @@
           <p class="text-gray-600 dark:text-gray-400">Platform that highlights the day-to-day activities of a company or
             client, and help them manage their affairs</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in xtralis" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
           </ul>
+          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span class="space-x-6"><strong>Password: </strong>123</span>
+          </p>
           <div class="mt-4">
             <a href="https://xtralis.vercel.app" target="_blank"
               class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
@@ -43,11 +45,13 @@
           <p class="text-gray-600 dark:text-gray-400">Employee management portal that allows employees to make requests
           </p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in regentems" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
           </ul>
+          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span class="space-x-6"><strong>Password: </strong>123abc</span>
+          </p>
           <div class="mt-4">
             <a href="https://regentems.vercel.app" target="_blank"
               class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
@@ -67,7 +71,7 @@
           <p class="text-gray-600 dark:text-gray-400">A configuration guide📖 application template, typically providing
             step-by-step instructions, best practices, and troubleshooting tips.</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in fredox" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
@@ -91,7 +95,7 @@
           <h3 class="text-lg font-semibold text-gray-800 dark:text-white my-5">Easybank</h3>
           <p class="text-gray-600 dark:text-gray-400">A completed challenge from Frontend Mentor.</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in easybank" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
@@ -115,7 +119,7 @@
           <p class="text-gray-600 dark:text-gray-400">A web application that supports transactions between wholesalers
             and retailer</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in vendor" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
@@ -139,7 +143,7 @@
           <h3 class="text-lg font-semibold text-gray-800 dark:text-white my-5">Manage Landing Page</h3>
           <p class="text-gray-600 dark:text-gray-400">A completed challenge from Frontend Mentor</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in manage" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
@@ -162,7 +166,7 @@
           <h3 class="text-lg font-semibold text-gray-800 dark:text-white my-5">Rigelis</h3>
           <p class="text-gray-600 dark:text-gray-400">The official website for Rigelis.Inc</p>
           <ul class="mt-2 flex flex-wrap">
-            <li v-for="tech in technologies" :key="tech"
+            <li v-for="tech in rigelis" :key="tech"
               class="mr-2 mb-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 px-2 py-1 rounded-full text-sm">
               {{ tech }}
             </li>
@@ -181,5 +185,12 @@
 </template>
 
 <script setup>
-const technologies = ['JavaScript', 'Nuxt.js', 'Typescript', 'Tailwind Css']
+const xtralis = ['JavaScript', 'Nuxt.js 3', 'Typescript', 'Tailwind Css'];
+const regentems = ['JavaScript', 'Nuxt.js 3', 'Firebase', 'Tailwind Css'];
+const easybank = ['Html', 'Scss', 'Javascript'];
+const manage = ['Html', 'Tailwind Css', 'Javascript'];
+const rigelis = ['Nuxt.js 3', 'Javascript', 'Firebase', 'Tailwind Css'];
+const fredox = ['JavaScript', 'Nuxt.js', 'Tailwind Css'];
+const vendor = ['Nuxt.js 3', 'Bootstrap', 'Javascript'];
+
 </script>
