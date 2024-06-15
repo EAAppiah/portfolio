@@ -1,9 +1,9 @@
 <template>
-  <main class="dark:bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden px-4 ml-0 md:ml-[325px]">
+  <main class="dark:bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden px-4 ml-0 lg:ml-[325px]">
     <div class="max-w-5xl xl:max-w-7xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8">
 
       <!-- Banner Section -->
-      <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center py-16">
+      <section id="banner" class="flex flex-col-reverse md:flex-row items-center justify-center py-16">
         <div class="flex-1 mb-8 lg:mb-0">
           <header class="block mt-4 lg:mt-0">
             <div class="flex flex-col h-full justify-center text-center md:text-left">

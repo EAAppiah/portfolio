@@ -22,7 +22,8 @@
               {{ tech }}
             </li>
           </ul>
-          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span class="space-x-6"><strong>Password: </strong>123</span>
+          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span
+              class="space-x-6"><strong>Password: </strong>123</span>
           </p>
           <div class="mt-4">
             <a href="https://xtralis.vercel.app" target="_blank"
@@ -31,7 +32,7 @@
                 class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
             </a>
           </div>
-          <div class="absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
 
         </article>
 
@@ -50,7 +51,8 @@
               {{ tech }}
             </li>
           </ul>
-          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span class="space-x-6"><strong>Password: </strong>123abc</span>
+          <p class="dark:text-slate-300"><strong>Demo Email:</strong> test@test.com <span
+              class="space-x-6"><strong>Password: </strong>123abc</span>
           </p>
           <div class="mt-4">
             <a href="https://regentems.vercel.app" target="_blank"
@@ -83,7 +85,7 @@
                 class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
             </a>
           </div>
-          <div class="absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
         </article>
 
         <!-- Easybank -->
@@ -131,7 +133,7 @@
                 class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
             </a>
           </div>
-          <div class="absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px bg-gray-300 dark:bg-gray-700"></div>
         </article>
 
         <!-- Manage Landing Page -->
