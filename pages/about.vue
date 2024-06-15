@@ -14,13 +14,14 @@
               </h1>
               <span class="text dark:text-slate-300 my-4 max-w-2xl text-balance"><strong class="dark:text-white">I love
                   answers!</strong><br><br>
-                My name is Elvis Appiah. I build with React & Vue.js, and do whatever it takes to
-                find an answer with them. <br><br>
+                I build my applications with React & Vue.js. I prioritize in meeting client requirements, and
+                do whatever it takes to
+                find an answer with them.<br><br>
                 I love things for the web and learning about new ideas and techniques for productivity and workflows.
                 <br><br>
                 <strong class="dark:text-white">Domain Experience so far:</strong> <span
                   class="text-purple-600"><strong>Health
-                    Tech</strong></span> <br><br>
+                    & Freelancing</strong></span> <br><br>
                 Get in touch to find the next answer together!</span><br><br>
             </div>
           </header>
