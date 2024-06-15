@@ -1,15 +1,15 @@
 <template>
   <div
-    class="hidden lg:block fixed bg-[#f5f6f7] top-0 left-0 w-[325px] h-full dark:bg-slate-900 border-r dark:border-slate-800">
+    class="hidden lg:block fixed bg-[#f5f6f7] top-0 left-0 w-[325px] h-full dark:bg-[#080808] transition-colors duration-1000 ease-in-out border-r dark:border-slate-800">
     <!-- Search Form -->
-    <div class="bg-[#eff1f2] dark:bg-slate-800">
+    <div class="bg-[#eff1f2] dark:bg-[#0c1018] transition-colors duration-1000 ease-in-out">
       <form class="p-5 flex items-center">
         <label class="sr-only text-gray-100">Search</label>
         <div class="relative w-full">
           <input type="text" id="table-search" placeholder="Search..."
-            class="block ps-3 rounded-md w-full border border-gray-300 dark:bg-slate-700 text-gray-900 focus:ring-purple-500 focus:border-purple-500 dark:text-white dark:focus:ring-purple-500">
+            class="block ps-3 rounded-md w-full border border-gray-300 text-gray-900 focus:ring-purple-500 focus:border-purple-500 dark:text-white dark:focus:ring-purple-500">
           <span class="absolute right-2 top-1/2 transform -translate-y-1/2 text-lg text-gray-400">
-            <Icon name="i-emojione-monotone-magnifying-glass-tilted-right" class="dark:text-slate-300"></Icon>
+            <Icon name="i-emojione-monotone-magnifying-glass-tilted-right"></Icon>
           </span>
         </div>
       </form>

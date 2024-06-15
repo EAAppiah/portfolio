@@ -1,5 +1,6 @@
 <template>
-  <main class="dark:bg-slate-900 overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
+  <main
+    class="dark:bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
     <div class="max-w-5xl xl:max-w-6xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8">
       <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
         <div>
