@@ -1,25 +1,28 @@
 <template>
   <main
-    class="dark:bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
+    class="dark:bg-white bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
     <div class="max-w-5xl xl:max-w-6xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8">
       <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
         <div>
           <header class="block mt-4 lg:mt-0">
             <div class="flex flex-col h-full justify-center">
-              <h1 class="sm:text-2xl hidden text-5xl font-semibold leading-tight text-gray-700 mb-4 text-center">About
+              <h1
+                class="text-2xl hidden md:text-5xl font-semibold leading-tight dark:text-gray-700 mb-4 text-center text-white">
+                About
                 Me
               </h1>
-              <h1 class="hidden lg:flex text-5xl font-semibold leading-tight text-gray-700 mb-4 dark:text-white">About
+              <h1 class="hidden lg:flex text-5xl font-semibold leading-tight dark:text-gray-700 mb-4 text-white">About
                 Me
               </h1>
-              <span class="text dark:text-slate-300 my-4 max-w-2xl text-balance"><strong class="dark:text-white">I love
+              <span class="dark:text-black text-slate-300 my-4 max-w-2xl text-balance"><strong
+                  class="text-white dark:text-black">I love
                   answers!</strong><br><br>
                 I build my applications with React & Vue.js. I prioritize in meeting client requirements, and
                 do whatever it takes to
                 find an answer with them.<br><br>
                 I love things for the web and learning about new ideas and techniques for productivity and workflows.
                 <br><br>
-                <strong class="dark:text-white">Domain Experience so far:</strong> <span
+                <strong class="text-white dark:text-black">Domain Experience so far:</strong> <span
                   class="text-purple-600"><strong>Health
                     & Freelancing</strong></span> <br><br>
                 Get in touch to find the next answer together!</span><br><br>

@@ -1,6 +1,6 @@
 <template>
   <!-- HEADER SECTION LG SCREENS -->
-  <nav class="p-4 lg:ml-[325px] overflow-hidden dark:bg-[#080808] transition-colors duration-1000 ease-in-out">
+  <nav class="p-4 lg:ml-[325px] overflow-hidden dark:bg-white bg-[#080808] transition-colors duration-1000 ease-in-out">
     <div class="z-10 w-full max-w-5xl mx-auto">
 
       <!-- MOBILE HEADER-->
@@ -58,7 +58,7 @@
       <!-- LARGE SCREEN HEADER LINKS/MSG -->
       <header class="mx-2 lg:mx-16 mt-4">
         <div class="flex justify-between items-center">
-          <a class="text-gray-500 hover:text-purple-900 dark:text-slate-300" href="/">Changing the World <strong
+          <a class="dark:text-gray-500 hover:text-purple-900 text-slate-300" href="/">Changing the World <strong
               class="">1 line of
               Code</strong> at a time
           </a>
