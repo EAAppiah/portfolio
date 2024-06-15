@@ -7,7 +7,7 @@
         <div class="flex-1 mb-8 lg:mb-0">
           <header class="block mt-4 lg:mt-0">
             <div class="flex flex-col h-full justify-center text-center md:text-left">
-              <h1 class="text-2xl lg:text-6xl font-semibold leading-tight text-gray-700 dark:text-white">
+              <h1 class="text-2xl md:text-4xl lg:text-6xl font-semibold leading-tight text-gray-700 dark:text-white">
                 Hi, I'm Elvis,<br> Your Next Software Engineer
               </h1>
               <p class="tracking-wider text-gray-600 md:text-sm dark:text-slate-300 uppercase mt-4 mb-4">
@@ -26,10 +26,10 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="lg:hidden">
-          <img src="assets/images/work.jpg" alt="Profile pic" class="rounded w-full h-auto">
+        <div class="md:hidden">
+          <img src="assets/images/work.jpg" alt="Profile pic" class="rounded w-full -mt-10">
         </div>
-        <div class="hidden lg:block lg:mr-16 xl:hidden">
+        <div class="hidden md:block lg:mr-16 xl:hidden">
           <img src="assets/images/work.jpg" alt="Profile pic" width="400" height="400" class="rounded">
         </div>
         <div class="hidden xl:block xl:mr-16">
