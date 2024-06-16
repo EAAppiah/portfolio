@@ -14,41 +14,41 @@
               <span>
                 <ModeSwitch />
               </span>
-              <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
-              </a>
             </li>
             <li class="ml-2">
               <span>
-                <Icon name="i-material-symbols-mail-outline"
-                  class="text-xl text-gray-500 cursor-pointer hover:text-purple-900 dark:text-slate-400"></Icon>
+                <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                  <Icon name="i-material-symbols-mail-outline"
+                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900 dark:text-slate-400"></Icon>
+                </a>
               </span>
-              <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
-              </a>
             </li>
             <li class="ml-4">
               <span>
-                <Icon name="i-brandico-twitter-bird"
-                  class="text-xl text-gray-500 cursor-pointer hover:text-purple-900 dark:text-slate-400">
-                </Icon>
+                <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
+                  <Icon name="i-brandico-twitter-bird"
+                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900 dark:text-slate-400">
+                  </Icon>
+                </a>
               </span>
-              <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
-              </a>
+
             </li>
             <li class="ml-4">
               <span>
-                <Icon name="i-akar-icons-linkedinv2-fill"
-                  class="text-gray-500 text-xl cursor-pointer hover:text-purple-900 dark:text-slate-400"></Icon>
+                <a name="LinkedIn" target="_blank" href="https://www.linkedin.com/in/ek-appiah">
+                  <Icon name="i-akar-icons-linkedinv2-fill"
+                    class="text-gray-500 text-xl cursor-pointer hover:text-purple-900 dark:text-slate-400"></Icon>
+                </a>
               </span>
-              <a name="Linked-In" target="_blank" href="https://www.linkedin.com/in/ek-appiah"></a>
             </li>
             <li class="ml-4">
               <span>
-                <Icon name="i-pajamas-github"
-                  class="text-xl text-gray-500 cursor-pointer dark:text-slate-400 hover:text-purple-900">
-                </Icon>
+                <a name="Github" target="_blank" href="https://github.com/EAAppiah">
+                  <Icon name="i-pajamas-github"
+                    class="text-xl text-gray-500 cursor-pointer dark:text-slate-400 hover:text-purple-900">
+                  </Icon>
+                </a>
               </span>
-              <a name="Github" target="_blank" href="https://github.com/EAAppiah">
-              </a>
             </li>
           </ul>
         </div>
@@ -68,40 +68,39 @@
                 <span>
                   <ModeSwitch />
                 </span>
-                <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
-                </a>
               </li>
               <li class="ml-2">
                 <span>
-                  <Icon name="i-material-symbols-mail-outline"
-                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                  <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
+                    <Icon name="i-material-symbols-mail-outline"
+                      class="text-xl text-gray-500 cursor-pointer hover:text-purple-900"></Icon>
+                  </a>
                 </span>
-                <a name="Email" target="_blank" href="mailto:kageappiah@outlook.com">
-                </a>
               </li>
               <li class="ml-4">
                 <span>
-                  <Icon name="i-brandico-twitter-bird"
-                    class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
-                  </Icon>
+                  <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
+                    <Icon name="i-brandico-twitter-bird"
+                      class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                    </Icon>
+                  </a>
                 </span>
-                <a name="Twitter" target="_blank" href="https://twitter.com/dev_kage">
-                </a>
               </li>
               <li class="ml-4">
                 <span>
-                  <Icon name="i-akar-icons-linkedinv2-fill"
-                    class="text-gray-500 text-xl cursor-pointer hover:text-purple-900"></Icon>
+                  <a name="LinkedIn" target="_blank" href="https://www.linkedin.com/in/ek-appiah">
+                    <Icon name="i-akar-icons-linkedinv2-fill"
+                      class="text-gray-500 text-xl cursor-pointer hover:text-purple-900"></Icon>
+                  </a>
                 </span>
-                <a name="Linked-In" target="_blank" href="https://www.linkedin.com/in/ek-appiah"></a>
               </li>
               <li class="ml-4">
                 <span>
-                  <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
-                  </Icon>
+                  <a name="Github" target="_blank" href="https://github.com/EAAppiah">
+                    <Icon name="i-pajamas-github" class="text-xl text-gray-500 cursor-pointer hover:text-purple-900">
+                    </Icon>
+                  </a>
                 </span>
-                <a name="Github" target="_blank" href="https://github.com/EAAppiah">
-                </a>
               </li>
             </ul>
           </div>
