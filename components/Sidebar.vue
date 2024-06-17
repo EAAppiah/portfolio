@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hidden lg:block fixed dark:bg-[#f5f6f7] top-0 left-0 w-[325px] h-full bg-[#080808] transition-colors duration-1000 ease-in-out border-r dark:border-slate-800">
+    class="hidden lg:block fixed dark:bg-[#f5f6f7] top-0 left-0 w-[325px] h-full bg-[#080808] transition-colors duration-1000 ease-in-out border-r border-slate-800 dark:border-gray-300">
     <!-- Search Form -->
     <div class="dark:bg-[#eff1f2] bg-[#0c1018] transition-colors duration-1000 ease-in-out">
       <form class="p-5 flex items-center">
