@@ -30,12 +30,13 @@
           </header>
 
           <div class="text-center md:text-left">
-            <a
-              href="/about"
-              class="animate-pulse text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex items-center"
-            >
-              MEET ME 👋
-            </a>
+            <nuxt-link to="/about"
+              class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 hover:text-white dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                MEET ME👋
+              </span>
+            </nuxt-link>
           </div>
         </div>
         <div class="md:hidden">
