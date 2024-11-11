@@ -128,7 +128,7 @@
           </ul>
           <div class="mt-4">
             <a href="https://vue-boot.vercel.app/" target="_blank"
-              class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+              class=" relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
               <span
                 class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
             </a>
@@ -180,7 +180,78 @@
                 class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
             </a>
           </div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px dark:bg-gray-300 bg-gray-700"></div>
         </article>
+
+                <!-- New Chapter -->
+                <article class="relative overflow-hidden">
+          <a href="https://myiahousewarmingparty.com/" target="_blank" class="block">
+            <img src="/assets/images/myia.jpeg" alt="New Chapter"
+              class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
+          </a>
+          <h3 class="text-lg font-semibold dark:text-gray-800 text-white my-5">New Chapter</h3>
+          <p class="dark:text-gray-600 text-gray-400">Join Myia's New Chapter</p>
+          <ul class="mt-2 flex flex-wrap">
+            <li v-for="tech in newChapter" :key="tech"
+              class="mr-2 mb-2 dark:bg-gray-200 bg-gray-700 dark:text-gray-800 text-gray-300 px-2 py-1 rounded-full text-sm">
+              {{ tech }}
+            </li>
+          </ul>
+          <div class="mt-4">
+            <a href="https://myiahousewarmingparty.com/" target="_blank"
+              class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
+            </a>
+          </div>
+        </article>
+
+         <!-- Boss Network -->
+         <article class="relative overflow-hidden">
+          <a href="https://rigelis.co/" target="_blank" class="block">
+            <img src="/assets/images/boss.jpeg" alt="Boss Network Team"
+              class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
+          </a>
+          <h3 class="text-lg font-semibold dark:text-gray-800 text-white my-5">Boss Network Team</h3>
+          <p class="dark:text-gray-600 text-gray-400">The official website for Boss Network Team</p>
+          <ul class="mt-2 flex flex-wrap">
+            <li v-for="tech in wordPress" :key="tech"
+              class="mr-2 mb-2 dark:bg-gray-200 bg-gray-700 dark:text-gray-800 text-gray-300 px-2 py-1 rounded-full text-sm">
+              {{ tech }}
+            </li>
+          </ul>
+          <div class="mt-4">
+            <a href="https://bossnetworkteam.com/" target="_blank"
+              class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
+            </a>
+          </div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px dark:bg-gray-300 bg-gray-700"></div>
+        </article>
+
+                 <!-- YIB -->
+                 <article class="relative overflow-hidden">
+                  <a href="https://yib.vercel.app/" target="_blank" class="block">
+                    <img src="/assets/images/yib.png" alt="YIB Community"
+                      class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
+                  </a>
+                  <h3 class="text-lg font-semibold dark:text-gray-800 text-white my-5">Youth In Business</h3>
+                  <p class="dark:text-gray-600 text-gray-400">The official website for Y.I.B Community</p>
+                  <ul class="mt-2 flex flex-wrap">
+                    <li v-for="tech in yib" :key="tech"
+                      class="mr-2 mb-2 dark:bg-gray-200 bg-gray-700 dark:text-gray-800 text-gray-300 px-2 py-1 rounded-full text-sm">
+                      {{ tech }}
+                    </li>
+                  </ul>
+                  <div class="mt-4">
+                    <a href="https://yib.vercel.app/" target="_blank"
+                      class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+                      <span
+                        class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
+                    </a>
+                  </div>
+                </article>
       </div>
     </div>
   </section>
@@ -194,5 +265,8 @@ const manage = ['Html', 'Tailwind Css', 'Javascript'];
 const rigelis = ['Nuxt.js 3', 'Javascript', 'Firebase', 'Tailwind Css'];
 const fredox = ['JavaScript', 'Nuxt.js', 'Tailwind Css'];
 const vendor = ['Nuxt.js 3', 'Bootstrap', 'Javascript'];
+const newChapter = ['Squarespace'];
+const wordPress = ['Wordpress'];
+const yib = ['JavaScript', 'Next.js', 'Tailwind Css'];
 
 </script>
