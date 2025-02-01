@@ -1,6 +1,6 @@
 <template>
   <main
-    class="dark:bg-white bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
+    class="dark:bg-stone-50 bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden h-screen px-4 ml-0 md:ml-[325px]">
     <div class="max-w-5xl xl:max-w-6xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8">
       <section id="banner" class="flex flex-col-reverse lg:flex-row items-center justify-center">
         <div>
@@ -14,14 +14,15 @@
               <h1 class="hidden lg:flex text-5xl font-semibold leading-tight dark:text-gray-700 mb-4 text-white">About
                 Me
               </h1>
-              <span class="dark:text-black text-slate-300 my-4 max-w-2xl text-balance"><strong
+              <span class="dark:text-black text-slate-300 my-4 max-w-2xl text-balance p-1"><strong
                   class="text-white dark:text-black">I love
                   answers!</strong><br><br>
-                I build my applications with React & Vue.js. I prioritize in meeting client requirements, and
-                do whatever it takes to
-                find an answer with them.<br><br>
-                I love things for the web and learning about new ideas and techniques for productivity and workflows.
+                I am fullstack developer with a great interest in network security, I bring a diverse and comprehensive
+                skillset to the table. My technical proficiencies span frontend development with React and Vue, and
+                backend development with Laravel, PHP, and Python. I am adept at working with JavaScript, Python, and
+                PHP, allowing me to create dynamic and secure applications.
                 <br><br>
+                
                 <strong class="text-white dark:text-black">Domain Experience so far:</strong> <span
                   class="text-purple-600"><strong>Health
                     & Freelancing</strong></span> <br><br>

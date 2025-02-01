@@ -1,6 +1,6 @@
 <template>
   <!-- HEADER SECTION LG SCREENS -->
-  <nav class="p-4 lg:ml-[325px] overflow-hidden dark:bg-white bg-[#080808] transition-colors duration-1000 ease-in-out">
+  <nav class="p-4 lg:ml-[325px] overflow-hidden dark:bg-stone-50 bg-[#080808] transition-colors duration-1000 ease-in-out">
     <div class="z-10 w-full max-w-5xl mx-auto">
 
       <!-- MOBILE HEADER-->

@@ -1,6 +1,6 @@
 <template>
   <main
-    class="dark:bg-white bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden px-4 ml-0 lg:ml-[325px]"
+    class="dark:bg-stone-50 bg-[#080808] transition-colors duration-1000 ease-in-out overflow-hidden px-4 ml-0 lg:ml-[325px]"
   >
     <div
       class="max-w-5xl xl:max-w-7xl w-full mx-auto flex flex-col mt-2 px-0 lg:px-8"

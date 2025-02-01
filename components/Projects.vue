@@ -208,7 +208,7 @@
 
          <!-- Boss Network -->
          <article class="relative overflow-hidden">
-          <a href="https://rigelis.co/" target="_blank" class="block">
+          <a href="https://bossnetworkteam.com" target="_blank" class="block">
             <img src="/assets/images/boss.jpeg" alt="Boss Network Team"
               class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
           </a>
@@ -252,6 +252,54 @@
                     </a>
                   </div>
                 </article>
+
+                         <!-- IMF -->
+         <article class="relative overflow-hidden">
+          <a href="https://imf-three.vercel.app/" target="_blank" class="block">
+            <img src="/assets/images/IMF.png" alt="IMF"
+              class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
+          </a>
+          <h3 class="text-lg font-semibold dark:text-gray-800 text-white my-5">Economic Governance Platform (EGP)</h3>
+          <p class="dark:text-gray-600 text-gray-400">An Overview of The IMF Bailout Programme in Ghana</p>
+          <ul class="mt-2 flex flex-wrap">
+            <li v-for="tech in imf" :key="tech"
+              class="mr-2 mb-2 dark:bg-gray-200 bg-gray-700 dark:text-gray-800 text-gray-300 px-2 py-1 rounded-full text-sm">
+              {{ tech }}
+            </li>
+          </ul>
+          <div class="mt-4">
+            <a href="https://bossnetworkteam.com/" target="_blank"
+              class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
+            </a>
+          </div>
+          <div class="hidden lg:block absolute inset-y-0 right-0 w-px dark:bg-gray-300 bg-gray-700"></div>
+        </article>
+
+<!-- MEDSGH -->
+<article class="relative overflow-hidden">
+                  <a href="https://medsgh.com/" target="_blank" class="block">
+                    <img src="/assets/images/ajv.png" alt="Meds GH"
+                      class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
+                  </a>
+                  <h3 class="text-lg font-semibold dark:text-gray-800 text-white my-5">AJV Pharmacy Wholesale</h3>
+                  <p class="dark:text-gray-600 text-gray-400">An e-commerce website for Arzthena Pharmacy</p>
+                  <ul class="mt-2 flex flex-wrap">
+                    <li v-for="tech in ajv" :key="tech"
+                      class="mr-2 mb-2 dark:bg-gray-200 bg-gray-700 dark:text-gray-800 text-gray-300 px-2 py-1 rounded-full text-sm">
+                      {{ tech }}
+                    </li>
+                  </ul>
+                  <div class="mt-4">
+                    <a href="https://yib.vercel.app/" target="_blank"
+                      class="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium dark:text-purple-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none dark:focus:ring-blue-300 focus:ring-blue-800">
+                      <span
+                        class="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-white bg-gray-900 rounded-md group-hover:bg-opacity-0">Visit</span>
+                    </a>
+                  </div>
+                </article>
+
       </div>
     </div>
   </section>
@@ -268,5 +316,9 @@ const vendor = ['Nuxt.js 3', 'Bootstrap', 'Javascript'];
 const newChapter = ['Squarespace'];
 const wordPress = ['Wordpress'];
 const yib = ['JavaScript', 'Next.js', 'Tailwind Css'];
+const imf = ['JavaScript', 'Nuxt.js', 'Tailwind Css', 'Flowbite', 'Chart.js'];
+const ajv = ['JavaScript', 'Nuxt.js', 'Tailwind Css', 'Pinia', 'Firebase'];
+
+
 
 </script>
