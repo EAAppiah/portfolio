@@ -232,7 +232,7 @@
 
                  <!-- YIB -->
                  <article class="relative overflow-hidden">
-                  <a href="https://yib.vercel.app/" target="_blank" class="block">
+                  <a href="https://yibghana.com" target="_blank" class="block">
                     <img src="/assets/images/yib.png" alt="YIB Community"
                       class="w-96 h-52 xl:h-full rounded-md transition-all ease-in-out duration-1000 transform hover:scale-105" />
                   </a>
